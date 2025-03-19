@@ -14,17 +14,29 @@
 | mean f1 score  | 0.5696   | 0.6967  | 0.7856  | 0.7686  | 0.7898  |
 | auc           | 0.7708   | 0.8376  | 0.9791  | 0.9759  | 0.9679  |
 
+<div style="display: flex; justify-content: center;">
+  <img src="src/logs/before_DecisionTree_logs/DecisionTreeClassifier_20250318_162330_confusion_matrix5.png" width="45%">
+  <img src="src/logs/StackingClassifier_20250319_023248_confusion_matrix5.png" width="45%">
+</div>
+
 1. 전처리 효과
     - 전처리 후 Decision Tree 모델은 전처리 전보다 모든 평가 지표에서 약 12%정도 향상되었습니다.
+    
 2. 모델 비교
     - XGB와 스태킹(meta:SVM) 모델이 가장 우수한 성능을 보입니다.
     - 스태킹 모델은 accuracy(0.7917)와 recall(0.7917) 면에서 가장 높은 수치를 보여줍니다.
     - XGB는 AUC(0.9791) 측면에서 가장 뛰어나며, 전반적으로 모든 지표에서 높은 성능을 보입니다.
+
 3. 복잡한 모델
     - 단순한 Decision Tree 보다 복잡한 모델의 성능이 전반적으로 10-20% 더 높은 성능을 보이며 AUC 지표에서 복잡한 모델이 매우 높은 수치를 기록하여 분류 능력이 좋았습니다.
+
 4. 스태킹 효과
     - meta 분류기로 SVM을 사용한 스태킹 기법이 accuracy와 recall 측면에서 가장 우수하여, 여러 모델의 장점을 결합했을 때의 시너지 효과를 보여줍니다.
     - 다만 AUC에서는 XGB보다 약간 낮은 성능(0.9679)을 보입니다.
+
+5. 데이터 불균형 문제
+    - metric이 비슷한 수치를 보이는 것은 데이터 불균형으로 추측하고 있습니다. 이러한 불균형 데이터를 해결하기 위해서 다양한 샘플링 기법(Under-sampling, SMOTE 등)을 시도했지만 해결되지는 못했습니다.
+    - 그럼에도 confusion matrix를 보면 대각선 상의 값들이 크게 증가한 것을 볼 수 있으며, 모델의 분류 성능이 향상되었음을 알 수 있습니다.
 
 ## 데이터
 - 데이터셋: genres_v2.csv (프로젝트 루트 디렉토리의 data 폴더에 위치)
