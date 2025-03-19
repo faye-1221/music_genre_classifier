@@ -1,0 +1,140 @@
+2025-03-19 02:32:48,256 - StackingClassifier_training - INFO - Starting 5-fold cross validation for StackingClassifier
+2025-03-19 02:32:48,257 - StackingClassifier_training - INFO - Data shape - X: (35969, 10), y: 35969
+2025-03-19 02:32:48,260 - StackingClassifier_training - INFO - Starting fold 1/5
+2025-03-19 02:32:48,269 - StackingClassifier_training - INFO - Fold 1 - Training set: 23020, Validation set: 5755, Test set: 7194
+2025-03-19 02:35:00,701 - StackingClassifier_training - INFO - Fold 1 - Model training completed
+2025-03-19 02:35:14,627 - StackingClassifier_training - INFO - [Validation] Fold 1 - accuracy: 0.7915, precision: 0.7898, recall: 0.7915, f1: 0.7890, auc: 0.9682
+2025-03-19 02:35:32,023 - StackingClassifier_training - INFO - [Test] Fold 1 - accuracy: 0.7922, precision: 0.7904, recall: 0.7922, f1: 0.7900, auc: 0.9667
+2025-03-19 02:35:41,219 - StackingClassifier_training - INFO - Classification Report:
+              precision    recall  f1-score   support
+
+           0       0.64      0.70      0.67       916
+           1       0.81      0.80      0.81       336
+           2       0.63      0.65      0.64       605
+           3       0.64      0.65      0.65       370
+           4       0.57      0.50      0.53       420
+           5       0.65      0.48      0.55       391
+           6       0.97      0.99      0.98       593
+           7       0.89      0.94      0.91       587
+           8       0.93      0.92      0.93       592
+           9       0.89      0.89      0.89       595
+          10       0.85      0.87      0.86       591
+          11       0.83      0.86      0.85       600
+          12       0.89      0.86      0.87       598
+
+    accuracy                           0.79      7194
+   macro avg       0.79      0.78      0.78      7194
+weighted avg       0.79      0.79      0.79      7194
+
+2025-03-19 02:35:41,560 - StackingClassifier_training - INFO - Confusion matrix saved to logs/StackingClassifier_20250319_023248_confusion_matrix1.png
+2025-03-19 02:35:41,561 - StackingClassifier_training - INFO - Starting fold 2/5
+2025-03-19 02:35:41,569 - StackingClassifier_training - INFO - Fold 2 - Training set: 23020, Validation set: 5755, Test set: 7194
+2025-03-19 02:37:49,099 - StackingClassifier_training - INFO - Fold 2 - Model training completed
+2025-03-19 02:38:02,969 - StackingClassifier_training - INFO - [Validation] Fold 2 - accuracy: 0.7828, precision: 0.7815, recall: 0.7828, f1: 0.7810, auc: 0.9677
+2025-03-19 02:38:21,180 - StackingClassifier_training - INFO - [Test] Fold 2 - accuracy: 0.7919, precision: 0.7907, recall: 0.7919, f1: 0.7903, auc: 0.9678
+2025-03-19 02:38:30,896 - StackingClassifier_training - INFO - Classification Report:
+              precision    recall  f1-score   support
+
+           0       0.62      0.71      0.66       916
+           1       0.80      0.77      0.79       336
+           2       0.66      0.64      0.65       606
+           3       0.60      0.58      0.59       370
+           4       0.58      0.53      0.55       419
+           5       0.63      0.49      0.55       391
+           6       0.98      0.97      0.97       593
+           7       0.88      0.91      0.90       587
+           8       0.94      0.92      0.93       592
+           9       0.88      0.93      0.90       595
+          10       0.89      0.88      0.88       591
+          11       0.86      0.89      0.87       600
+          12       0.86      0.86      0.86       598
+
+    accuracy                           0.79      7194
+   macro avg       0.78      0.77      0.78      7194
+weighted avg       0.79      0.79      0.79      7194
+
+2025-03-19 02:38:31,189 - StackingClassifier_training - INFO - Confusion matrix saved to logs/StackingClassifier_20250319_023248_confusion_matrix2.png
+2025-03-19 02:38:31,191 - StackingClassifier_training - INFO - Starting fold 3/5
+2025-03-19 02:38:31,199 - StackingClassifier_training - INFO - Fold 3 - Training set: 23020, Validation set: 5755, Test set: 7194
+2025-03-19 02:40:41,988 - StackingClassifier_training - INFO - Fold 3 - Model training completed
+2025-03-19 02:40:56,200 - StackingClassifier_training - INFO - [Validation] Fold 3 - accuracy: 0.7894, precision: 0.7888, recall: 0.7894, f1: 0.7877, auc: 0.9668
+2025-03-19 02:41:14,260 - StackingClassifier_training - INFO - [Test] Fold 3 - accuracy: 0.7934, precision: 0.7904, recall: 0.7934, f1: 0.7911, auc: 0.9684
+2025-03-19 02:41:23,286 - StackingClassifier_training - INFO - Classification Report:
+              precision    recall  f1-score   support
+
+           0       0.64      0.69      0.66       916
+           1       0.81      0.74      0.78       336
+           2       0.65      0.62      0.64       606
+           3       0.62      0.64      0.63       369
+           4       0.55      0.50      0.53       420
+           5       0.63      0.50      0.56       391
+           6       0.97      0.99      0.98       594
+           7       0.89      0.93      0.91       587
+           8       0.92      0.93      0.93       592
+           9       0.91      0.92      0.92       595
+          10       0.88      0.89      0.89       591
+          11       0.85      0.88      0.87       600
+          12       0.84      0.88      0.86       597
+
+    accuracy                           0.79      7194
+   macro avg       0.78      0.78      0.78      7194
+weighted avg       0.79      0.79      0.79      7194
+
+2025-03-19 02:41:23,543 - StackingClassifier_training - INFO - Confusion matrix saved to logs/StackingClassifier_20250319_023248_confusion_matrix3.png
+2025-03-19 02:41:23,544 - StackingClassifier_training - INFO - Starting fold 4/5
+2025-03-19 02:41:23,553 - StackingClassifier_training - INFO - Fold 4 - Training set: 23020, Validation set: 5755, Test set: 7194
+2025-03-19 02:43:32,223 - StackingClassifier_training - INFO - Fold 4 - Model training completed
+2025-03-19 02:43:46,161 - StackingClassifier_training - INFO - [Validation] Fold 4 - accuracy: 0.7918, precision: 0.7907, recall: 0.7918, f1: 0.7902, auc: 0.9668
+2025-03-19 02:44:03,557 - StackingClassifier_training - INFO - [Test] Fold 4 - accuracy: 0.7866, precision: 0.7862, recall: 0.7866, f1: 0.7850, auc: 0.9681
+2025-03-19 02:44:12,514 - StackingClassifier_training - INFO - Classification Report:
+              precision    recall  f1-score   support
+
+           0       0.62      0.69      0.65       915
+           1       0.82      0.71      0.76       336
+           2       0.64      0.59      0.61       606
+           3       0.59      0.59      0.59       369
+           4       0.55      0.59      0.57       420
+           5       0.62      0.45      0.52       392
+           6       0.98      0.99      0.98       593
+           7       0.88      0.93      0.91       588
+           8       0.92      0.93      0.93       592
+           9       0.93      0.92      0.92       595
+          10       0.88      0.88      0.88       591
+          11       0.82      0.88      0.85       600
+          12       0.88      0.86      0.87       597
+
+    accuracy                           0.79      7194
+   macro avg       0.78      0.77      0.77      7194
+weighted avg       0.79      0.79      0.79      7194
+
+2025-03-19 02:44:12,762 - StackingClassifier_training - INFO - Confusion matrix saved to logs/StackingClassifier_20250319_023248_confusion_matrix4.png
+2025-03-19 02:44:12,762 - StackingClassifier_training - INFO - Starting fold 5/5
+2025-03-19 02:44:12,774 - StackingClassifier_training - INFO - Fold 5 - Training set: 23020, Validation set: 5756, Test set: 7193
+2025-03-19 02:46:19,907 - StackingClassifier_training - INFO - Fold 5 - Model training completed
+2025-03-19 02:46:33,867 - StackingClassifier_training - INFO - [Validation] Fold 5 - accuracy: 0.7927, precision: 0.7921, recall: 0.7927, f1: 0.7911, auc: 0.9689
+2025-03-19 02:46:54,540 - StackingClassifier_training - INFO - [Test] Fold 5 - accuracy: 0.7944, precision: 0.7940, recall: 0.7944, f1: 0.7925, auc: 0.9684
+2025-03-19 02:47:04,480 - StackingClassifier_training - INFO - Classification Report:
+              precision    recall  f1-score   support
+
+           0       0.61      0.72      0.66       915
+           1       0.82      0.79      0.80       336
+           2       0.67      0.60      0.63       605
+           3       0.67      0.58      0.62       370
+           4       0.58      0.59      0.58       420
+           5       0.65      0.49      0.56       391
+           6       0.98      0.99      0.99       593
+           7       0.88      0.94      0.91       587
+           8       0.94      0.91      0.92       593
+           9       0.89      0.90      0.90       595
+          10       0.88      0.85      0.86       592
+          11       0.85      0.90      0.87       599
+          12       0.87      0.86      0.86       597
+
+    accuracy                           0.79      7193
+   macro avg       0.79      0.78      0.78      7193
+weighted avg       0.79      0.79      0.79      7193
+
+2025-03-19 02:47:04,769 - StackingClassifier_training - INFO - Confusion matrix saved to logs/StackingClassifier_20250319_023248_confusion_matrix5.png
+2025-03-19 02:47:04,770 - StackingClassifier_training - INFO - [Avg_Validation] Overall - accuracy: 0.7897, precision: 0.7886, recall: 0.7897, f1: 0.7878, auc: 0.9677
+2025-03-19 02:47:04,771 - StackingClassifier_training - INFO - [Avg_Test] Overall - accuracy: 0.7917, precision: 0.7903, recall: 0.7917, f1: 0.7898, auc: 0.9679
+2025-03-19 02:47:04,771 - StackingClassifier_training - INFO - Cross-validation completed

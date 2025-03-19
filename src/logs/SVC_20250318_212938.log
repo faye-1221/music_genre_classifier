@@ -1,0 +1,140 @@
+2025-03-18 21:29:38,316 - SVC_training - INFO - Starting 5-fold cross validation for SVC
+2025-03-18 21:29:38,317 - SVC_training - INFO - Data shape - X: (35969, 10), y: 35969
+2025-03-18 21:29:38,322 - SVC_training - INFO - Starting fold 1/5
+2025-03-18 21:29:38,331 - SVC_training - INFO - Fold 1 - Training set: 23020, Validation set: 5755, Test set: 7194
+2025-03-18 21:30:16,977 - SVC_training - INFO - Fold 1 - Model training completed
+2025-03-18 21:30:29,511 - SVC_training - INFO - [Validation] Fold 1 - accuracy: 0.7593, precision: 0.7567, recall: 0.7593, f1: 0.7566, auc: 0.9718
+2025-03-18 21:30:41,731 - SVC_training - INFO - [Test] Fold 1 - accuracy: 0.7505, precision: 0.7482, recall: 0.7505, f1: 0.7481, auc: 0.9710
+2025-03-18 21:30:47,754 - SVC_training - INFO - Classification Report:
+              precision    recall  f1-score   support
+
+           0       0.62      0.64      0.63       916
+           1       0.72      0.74      0.73       336
+           2       0.63      0.61      0.62       605
+           3       0.54      0.65      0.59       370
+           4       0.54      0.43      0.48       420
+           5       0.61      0.48      0.54       391
+           6       0.91      0.96      0.94       593
+           7       0.82      0.85      0.83       587
+           8       0.90      0.90      0.90       592
+           9       0.84      0.88      0.86       595
+          10       0.83      0.83      0.83       591
+          11       0.81      0.82      0.81       600
+          12       0.84      0.80      0.82       598
+
+    accuracy                           0.75      7194
+   macro avg       0.74      0.74      0.74      7194
+weighted avg       0.75      0.75      0.75      7194
+
+2025-03-18 21:30:48,171 - SVC_training - INFO - Confusion matrix saved to logs/SVC_20250318_212938_confusion_matrix1.png
+2025-03-18 21:30:48,172 - SVC_training - INFO - Starting fold 2/5
+2025-03-18 21:30:48,181 - SVC_training - INFO - Fold 2 - Training set: 23020, Validation set: 5755, Test set: 7194
+2025-03-18 21:31:11,425 - SVC_training - INFO - Fold 2 - Model training completed
+2025-03-18 21:31:21,376 - SVC_training - INFO - [Validation] Fold 2 - accuracy: 0.7475, precision: 0.7470, recall: 0.7475, f1: 0.7464, auc: 0.9704
+2025-03-18 21:31:34,514 - SVC_training - INFO - [Test] Fold 2 - accuracy: 0.7572, precision: 0.7578, recall: 0.7572, f1: 0.7565, auc: 0.9715
+2025-03-18 21:31:40,935 - SVC_training - INFO - Classification Report:
+              precision    recall  f1-score   support
+
+           0       0.60      0.67      0.64       916
+           1       0.72      0.71      0.72       336
+           2       0.64      0.61      0.62       606
+           3       0.53      0.60      0.57       370
+           4       0.57      0.51      0.54       419
+           5       0.58      0.47      0.52       391
+           6       0.94      0.93      0.94       593
+           7       0.82      0.84      0.83       587
+           8       0.90      0.92      0.91       592
+           9       0.86      0.90      0.88       595
+          10       0.86      0.85      0.85       591
+          11       0.83      0.82      0.83       600
+          12       0.86      0.79      0.82       598
+
+    accuracy                           0.76      7194
+   macro avg       0.75      0.74      0.74      7194
+weighted avg       0.76      0.76      0.76      7194
+
+2025-03-18 21:31:41,309 - SVC_training - INFO - Confusion matrix saved to logs/SVC_20250318_212938_confusion_matrix2.png
+2025-03-18 21:31:41,310 - SVC_training - INFO - Starting fold 3/5
+2025-03-18 21:31:41,321 - SVC_training - INFO - Fold 3 - Training set: 23020, Validation set: 5755, Test set: 7194
+2025-03-18 21:32:06,656 - SVC_training - INFO - Fold 3 - Model training completed
+2025-03-18 21:32:16,801 - SVC_training - INFO - [Validation] Fold 3 - accuracy: 0.7545, precision: 0.7535, recall: 0.7545, f1: 0.7530, auc: 0.9712
+2025-03-18 21:32:30,082 - SVC_training - INFO - [Test] Fold 3 - accuracy: 0.7626, precision: 0.7605, recall: 0.7626, f1: 0.7607, auc: 0.9717
+2025-03-18 21:32:36,828 - SVC_training - INFO - Classification Report:
+              precision    recall  f1-score   support
+
+           0       0.61      0.64      0.63       916
+           1       0.77      0.70      0.73       336
+           2       0.64      0.58      0.61       606
+           3       0.54      0.62      0.58       369
+           4       0.55      0.50      0.52       420
+           5       0.59      0.50      0.54       391
+           6       0.90      0.96      0.93       594
+           7       0.83      0.87      0.85       587
+           8       0.91      0.91      0.91       592
+           9       0.87      0.90      0.89       595
+          10       0.87      0.88      0.87       591
+          11       0.82      0.85      0.83       600
+          12       0.86      0.82      0.84       597
+
+    accuracy                           0.76      7194
+   macro avg       0.75      0.75      0.75      7194
+weighted avg       0.76      0.76      0.76      7194
+
+2025-03-18 21:32:37,188 - SVC_training - INFO - Confusion matrix saved to logs/SVC_20250318_212938_confusion_matrix3.png
+2025-03-18 21:32:37,189 - SVC_training - INFO - Starting fold 4/5
+2025-03-18 21:32:37,198 - SVC_training - INFO - Fold 4 - Training set: 23020, Validation set: 5755, Test set: 7194
+2025-03-18 21:33:03,040 - SVC_training - INFO - Fold 4 - Model training completed
+2025-03-18 21:33:13,662 - SVC_training - INFO - [Validation] Fold 4 - accuracy: 0.7574, precision: 0.7587, recall: 0.7574, f1: 0.7569, auc: 0.9715
+2025-03-18 21:33:26,438 - SVC_training - INFO - [Test] Fold 4 - accuracy: 0.7523, precision: 0.7516, recall: 0.7523, f1: 0.7509, auc: 0.9708
+2025-03-18 21:33:32,580 - SVC_training - INFO - Classification Report:
+              precision    recall  f1-score   support
+
+           0       0.60      0.65      0.62       915
+           1       0.73      0.68      0.71       336
+           2       0.63      0.56      0.59       606
+           3       0.54      0.62      0.57       369
+           4       0.56      0.55      0.55       420
+           5       0.58      0.46      0.51       392
+           6       0.92      0.95      0.94       593
+           7       0.82      0.85      0.83       588
+           8       0.88      0.92      0.90       592
+           9       0.89      0.91      0.90       595
+          10       0.87      0.84      0.85       591
+          11       0.79      0.82      0.81       600
+          12       0.86      0.80      0.83       597
+
+    accuracy                           0.75      7194
+   macro avg       0.74      0.74      0.74      7194
+weighted avg       0.75      0.75      0.75      7194
+
+2025-03-18 21:33:32,867 - SVC_training - INFO - Confusion matrix saved to logs/SVC_20250318_212938_confusion_matrix4.png
+2025-03-18 21:33:32,868 - SVC_training - INFO - Starting fold 5/5
+2025-03-18 21:33:32,877 - SVC_training - INFO - Fold 5 - Training set: 23020, Validation set: 5756, Test set: 7193
+2025-03-18 21:33:53,920 - SVC_training - INFO - Fold 5 - Model training completed
+2025-03-18 21:34:02,696 - SVC_training - INFO - [Validation] Fold 5 - accuracy: 0.7575, precision: 0.7573, recall: 0.7575, f1: 0.7566, auc: 0.9721
+2025-03-18 21:34:13,664 - SVC_training - INFO - [Test] Fold 5 - accuracy: 0.7639, precision: 0.7619, recall: 0.7639, f1: 0.7619, auc: 0.9721
+2025-03-18 21:34:19,259 - SVC_training - INFO - Classification Report:
+              precision    recall  f1-score   support
+
+           0       0.63      0.68      0.65       915
+           1       0.78      0.71      0.74       336
+           2       0.65      0.57      0.61       605
+           3       0.55      0.61      0.58       370
+           4       0.58      0.54      0.56       420
+           5       0.61      0.50      0.55       391
+           6       0.91      0.97      0.94       593
+           7       0.82      0.87      0.84       587
+           8       0.90      0.93      0.91       593
+           9       0.87      0.88      0.87       595
+          10       0.86      0.84      0.85       592
+          11       0.82      0.85      0.84       599
+          12       0.83      0.80      0.81       597
+
+    accuracy                           0.76      7193
+   macro avg       0.75      0.75      0.75      7193
+weighted avg       0.76      0.76      0.76      7193
+
+2025-03-18 21:34:19,566 - SVC_training - INFO - Confusion matrix saved to logs/SVC_20250318_212938_confusion_matrix5.png
+2025-03-18 21:34:19,566 - SVC_training - INFO - [Avg_Validation] Overall - accuracy: 0.7552, precision: 0.7546, recall: 0.7552, f1: 0.7539, auc: 0.9714
+2025-03-18 21:34:19,567 - SVC_training - INFO - [Avg_Test] Overall - accuracy: 0.7573, precision: 0.7560, recall: 0.7573, f1: 0.7556, auc: 0.9714
+2025-03-18 21:34:19,567 - SVC_training - INFO - Cross-validation completed

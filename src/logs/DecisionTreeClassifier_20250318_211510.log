@@ -1,0 +1,140 @@
+2025-03-18 21:15:10,605 - DecisionTreeClassifier_training - INFO - Starting 5-fold cross validation for DecisionTreeClassifier
+2025-03-18 21:15:10,606 - DecisionTreeClassifier_training - INFO - Data shape - X: (35969, 10), y: 35969
+2025-03-18 21:15:10,609 - DecisionTreeClassifier_training - INFO - Starting fold 1/5
+2025-03-18 21:15:10,617 - DecisionTreeClassifier_training - INFO - Fold 1 - Training set: 23020, Validation set: 5755, Test set: 7194
+2025-03-18 21:15:10,904 - DecisionTreeClassifier_training - INFO - Fold 1 - Model training completed
+2025-03-18 21:15:10,935 - DecisionTreeClassifier_training - INFO - [Validation] Fold 1 - accuracy: 0.6954, precision: 0.6963, recall: 0.6954, f1: 0.6955, auc: 0.8368
+2025-03-18 21:15:10,955 - DecisionTreeClassifier_training - INFO - [Test] Fold 1 - accuracy: 0.6961, precision: 0.6965, recall: 0.6961, f1: 0.6960, auc: 0.8370
+2025-03-18 21:15:10,965 - DecisionTreeClassifier_training - INFO - Classification Report:
+              precision    recall  f1-score   support
+
+           0       0.50      0.53      0.51       916
+           1       0.66      0.66      0.66       336
+           2       0.50      0.52      0.51       605
+           3       0.51      0.54      0.52       370
+           4       0.43      0.39      0.41       420
+           5       0.43      0.38      0.40       391
+           6       0.96      0.95      0.95       593
+           7       0.84      0.84      0.84       587
+           8       0.90      0.87      0.88       592
+           9       0.83      0.86      0.84       595
+          10       0.78      0.77      0.78       591
+          11       0.78      0.77      0.77       600
+          12       0.80      0.79      0.79       598
+
+    accuracy                           0.70      7194
+   macro avg       0.69      0.68      0.68      7194
+weighted avg       0.70      0.70      0.70      7194
+
+2025-03-18 21:15:11,390 - DecisionTreeClassifier_training - INFO - Confusion matrix saved to logs/DecisionTreeClassifier_20250318_211510_confusion_matrix1.png
+2025-03-18 21:15:11,391 - DecisionTreeClassifier_training - INFO - Starting fold 2/5
+2025-03-18 21:15:11,399 - DecisionTreeClassifier_training - INFO - Fold 2 - Training set: 23020, Validation set: 5755, Test set: 7194
+2025-03-18 21:15:11,626 - DecisionTreeClassifier_training - INFO - Fold 2 - Model training completed
+2025-03-18 21:15:11,645 - DecisionTreeClassifier_training - INFO - [Validation] Fold 2 - accuracy: 0.6911, precision: 0.6896, recall: 0.6911, f1: 0.6899, auc: 0.8335
+2025-03-18 21:15:11,664 - DecisionTreeClassifier_training - INFO - [Test] Fold 2 - accuracy: 0.6934, precision: 0.6950, recall: 0.6934, f1: 0.6939, auc: 0.8352
+2025-03-18 21:15:11,671 - DecisionTreeClassifier_training - INFO - Classification Report:
+              precision    recall  f1-score   support
+
+           0       0.50      0.54      0.52       916
+           1       0.62      0.63      0.63       336
+           2       0.51      0.52      0.52       606
+           3       0.50      0.47      0.48       370
+           4       0.43      0.40      0.41       419
+           5       0.39      0.39      0.39       391
+           6       0.96      0.94      0.95       593
+           7       0.86      0.84      0.85       587
+           8       0.89      0.87      0.88       592
+           9       0.82      0.86      0.84       595
+          10       0.80      0.78      0.79       591
+          11       0.79      0.79      0.79       600
+          12       0.78      0.76      0.77       598
+
+    accuracy                           0.69      7194
+   macro avg       0.68      0.68      0.68      7194
+weighted avg       0.70      0.69      0.69      7194
+
+2025-03-18 21:15:11,984 - DecisionTreeClassifier_training - INFO - Confusion matrix saved to logs/DecisionTreeClassifier_20250318_211510_confusion_matrix2.png
+2025-03-18 21:15:11,985 - DecisionTreeClassifier_training - INFO - Starting fold 3/5
+2025-03-18 21:15:11,993 - DecisionTreeClassifier_training - INFO - Fold 3 - Training set: 23020, Validation set: 5755, Test set: 7194
+2025-03-18 21:15:12,255 - DecisionTreeClassifier_training - INFO - Fold 3 - Model training completed
+2025-03-18 21:15:12,277 - DecisionTreeClassifier_training - INFO - [Validation] Fold 3 - accuracy: 0.6978, precision: 0.6978, recall: 0.6978, f1: 0.6975, auc: 0.8378
+2025-03-18 21:15:12,297 - DecisionTreeClassifier_training - INFO - [Test] Fold 3 - accuracy: 0.6984, precision: 0.6969, recall: 0.6984, f1: 0.6974, auc: 0.8382
+2025-03-18 21:15:12,305 - DecisionTreeClassifier_training - INFO - Classification Report:
+              precision    recall  f1-score   support
+
+           0       0.51      0.52      0.51       916
+           1       0.65      0.61      0.63       336
+           2       0.52      0.54      0.53       606
+           3       0.53      0.48      0.50       369
+           4       0.44      0.41      0.43       420
+           5       0.36      0.36      0.36       391
+           6       0.95      0.95      0.95       594
+           7       0.85      0.84      0.84       587
+           8       0.87      0.88      0.88       592
+           9       0.84      0.85      0.85       595
+          10       0.80      0.82      0.81       591
+          11       0.77      0.79      0.78       600
+          12       0.80      0.81      0.81       597
+
+    accuracy                           0.70      7194
+   macro avg       0.68      0.68      0.68      7194
+weighted avg       0.70      0.70      0.70      7194
+
+2025-03-18 21:15:12,563 - DecisionTreeClassifier_training - INFO - Confusion matrix saved to logs/DecisionTreeClassifier_20250318_211510_confusion_matrix3.png
+2025-03-18 21:15:12,564 - DecisionTreeClassifier_training - INFO - Starting fold 4/5
+2025-03-18 21:15:12,573 - DecisionTreeClassifier_training - INFO - Fold 4 - Training set: 23020, Validation set: 5755, Test set: 7194
+2025-03-18 21:15:12,850 - DecisionTreeClassifier_training - INFO - Fold 4 - Model training completed
+2025-03-18 21:15:12,871 - DecisionTreeClassifier_training - INFO - [Validation] Fold 4 - accuracy: 0.6874, precision: 0.6876, recall: 0.6874, f1: 0.6873, auc: 0.8320
+2025-03-18 21:15:12,893 - DecisionTreeClassifier_training - INFO - [Test] Fold 4 - accuracy: 0.6985, precision: 0.6973, recall: 0.6985, f1: 0.6978, auc: 0.8386
+2025-03-18 21:15:12,901 - DecisionTreeClassifier_training - INFO - Classification Report:
+              precision    recall  f1-score   support
+
+           0       0.52      0.52      0.52       915
+           1       0.63      0.63      0.63       336
+           2       0.51      0.53      0.52       606
+           3       0.47      0.47      0.47       369
+           4       0.45      0.45      0.45       420
+           5       0.40      0.35      0.37       392
+           6       0.95      0.94      0.95       593
+           7       0.83      0.85      0.84       588
+           8       0.88      0.89      0.88       592
+           9       0.86      0.86      0.86       595
+          10       0.81      0.83      0.82       591
+          11       0.78      0.77      0.77       600
+          12       0.79      0.78      0.78       597
+
+    accuracy                           0.70      7194
+   macro avg       0.68      0.68      0.68      7194
+weighted avg       0.70      0.70      0.70      7194
+
+2025-03-18 21:15:13,173 - DecisionTreeClassifier_training - INFO - Confusion matrix saved to logs/DecisionTreeClassifier_20250318_211510_confusion_matrix4.png
+2025-03-18 21:15:13,174 - DecisionTreeClassifier_training - INFO - Starting fold 5/5
+2025-03-18 21:15:13,182 - DecisionTreeClassifier_training - INFO - Fold 5 - Training set: 23020, Validation set: 5756, Test set: 7193
+2025-03-18 21:15:13,455 - DecisionTreeClassifier_training - INFO - Fold 5 - Model training completed
+2025-03-18 21:15:13,479 - DecisionTreeClassifier_training - INFO - [Validation] Fold 5 - accuracy: 0.7031, precision: 0.7015, recall: 0.7031, f1: 0.7021, auc: 0.8418
+2025-03-18 21:15:13,500 - DecisionTreeClassifier_training - INFO - [Test] Fold 5 - accuracy: 0.6996, precision: 0.6980, recall: 0.6996, f1: 0.6986, auc: 0.8390
+2025-03-18 21:15:13,510 - DecisionTreeClassifier_training - INFO - Classification Report:
+              precision    recall  f1-score   support
+
+           0       0.51      0.52      0.52       915
+           1       0.63      0.62      0.62       336
+           2       0.52      0.53      0.53       605
+           3       0.51      0.53      0.52       370
+           4       0.44      0.41      0.42       420
+           5       0.41      0.38      0.39       391
+           6       0.95      0.95      0.95       593
+           7       0.83      0.84      0.83       587
+           8       0.88      0.91      0.89       593
+           9       0.84      0.87      0.85       595
+          10       0.82      0.77      0.79       592
+          11       0.78      0.78      0.78       599
+          12       0.78      0.79      0.79       597
+
+    accuracy                           0.70      7193
+   macro avg       0.68      0.68      0.68      7193
+weighted avg       0.70      0.70      0.70      7193
+
+2025-03-18 21:15:13,810 - DecisionTreeClassifier_training - INFO - Confusion matrix saved to logs/DecisionTreeClassifier_20250318_211510_confusion_matrix5.png
+2025-03-18 21:15:13,811 - DecisionTreeClassifier_training - INFO - [Avg_Validation] Overall - accuracy: 0.6950, precision: 0.6946, recall: 0.6950, f1: 0.6945, auc: 0.8364
+2025-03-18 21:15:13,811 - DecisionTreeClassifier_training - INFO - [Avg_Test] Overall - accuracy: 0.6972, precision: 0.6967, recall: 0.6972, f1: 0.6967, auc: 0.8376
+2025-03-18 21:15:13,811 - DecisionTreeClassifier_training - INFO - Cross-validation completed

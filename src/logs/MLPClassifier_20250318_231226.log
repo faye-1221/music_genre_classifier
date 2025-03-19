@@ -1,0 +1,140 @@
+2025-03-18 23:12:26,261 - MLPClassifier_training - INFO - Starting 5-fold cross validation for MLPClassifier
+2025-03-18 23:12:26,261 - MLPClassifier_training - INFO - Data shape - X: (35969, 10), y: 35969
+2025-03-18 23:12:26,265 - MLPClassifier_training - INFO - Starting fold 1/5
+2025-03-18 23:12:26,275 - MLPClassifier_training - INFO - Fold 1 - Training set: 23020, Validation set: 5755, Test set: 7194
+2025-03-18 23:12:47,814 - MLPClassifier_training - INFO - Fold 1 - Model training completed
+2025-03-18 23:12:47,863 - MLPClassifier_training - INFO - [Validation] Fold 1 - accuracy: 0.7684, precision: 0.7667, recall: 0.7684, f1: 0.7662, auc: 0.9759
+2025-03-18 23:12:47,914 - MLPClassifier_training - INFO - [Test] Fold 1 - accuracy: 0.7669, precision: 0.7651, recall: 0.7669, f1: 0.7653, auc: 0.9756
+2025-03-18 23:12:47,934 - MLPClassifier_training - INFO - Classification Report:
+              precision    recall  f1-score   support
+
+           0       0.65      0.60      0.63       916
+           1       0.69      0.81      0.75       336
+           2       0.66      0.61      0.63       605
+           3       0.57      0.66      0.61       370
+           4       0.51      0.49      0.50       420
+           5       0.58      0.53      0.55       391
+           6       0.96      0.98      0.97       593
+           7       0.87      0.89      0.88       587
+           8       0.91      0.91      0.91       592
+           9       0.86      0.90      0.88       595
+          10       0.85      0.85      0.85       591
+          11       0.83      0.83      0.83       600
+          12       0.82      0.83      0.83       598
+
+    accuracy                           0.77      7194
+   macro avg       0.75      0.76      0.75      7194
+weighted avg       0.77      0.77      0.77      7194
+
+2025-03-18 23:12:48,523 - MLPClassifier_training - INFO - Confusion matrix saved to logs/MLPClassifier_20250318_231226_confusion_matrix1.png
+2025-03-18 23:12:48,524 - MLPClassifier_training - INFO - Starting fold 2/5
+2025-03-18 23:12:48,536 - MLPClassifier_training - INFO - Fold 2 - Training set: 23020, Validation set: 5755, Test set: 7194
+2025-03-18 23:13:05,705 - MLPClassifier_training - INFO - Fold 2 - Model training completed
+2025-03-18 23:13:05,737 - MLPClassifier_training - INFO - [Validation] Fold 2 - accuracy: 0.7599, precision: 0.7597, recall: 0.7599, f1: 0.7592, auc: 0.9747
+2025-03-18 23:13:05,768 - MLPClassifier_training - INFO - [Test] Fold 2 - accuracy: 0.7691, precision: 0.7693, recall: 0.7691, f1: 0.7688, auc: 0.9761
+2025-03-18 23:13:05,780 - MLPClassifier_training - INFO - Classification Report:
+              precision    recall  f1-score   support
+
+           0       0.65      0.62      0.63       916
+           1       0.75      0.77      0.76       336
+           2       0.63      0.60      0.62       606
+           3       0.55      0.59      0.57       370
+           4       0.55      0.53      0.54       419
+           5       0.52      0.54      0.53       391
+           6       0.98      0.95      0.97       593
+           7       0.86      0.90      0.88       587
+           8       0.95      0.91      0.92       592
+           9       0.88      0.87      0.88       595
+          10       0.84      0.88      0.86       591
+          11       0.82      0.89      0.85       600
+          12       0.85      0.83      0.84       598
+
+    accuracy                           0.77      7194
+   macro avg       0.76      0.76      0.76      7194
+weighted avg       0.77      0.77      0.77      7194
+
+2025-03-18 23:13:06,087 - MLPClassifier_training - INFO - Confusion matrix saved to logs/MLPClassifier_20250318_231226_confusion_matrix2.png
+2025-03-18 23:13:06,088 - MLPClassifier_training - INFO - Starting fold 3/5
+2025-03-18 23:13:06,096 - MLPClassifier_training - INFO - Fold 3 - Training set: 23020, Validation set: 5755, Test set: 7194
+2025-03-18 23:13:26,414 - MLPClassifier_training - INFO - Fold 3 - Model training completed
+2025-03-18 23:13:26,443 - MLPClassifier_training - INFO - [Validation] Fold 3 - accuracy: 0.7736, precision: 0.7711, recall: 0.7736, f1: 0.7718, auc: 0.9763
+2025-03-18 23:13:26,477 - MLPClassifier_training - INFO - [Test] Fold 3 - accuracy: 0.7730, precision: 0.7696, recall: 0.7730, f1: 0.7707, auc: 0.9769
+2025-03-18 23:13:26,489 - MLPClassifier_training - INFO - Classification Report:
+              precision    recall  f1-score   support
+
+           0       0.65      0.61      0.63       916
+           1       0.79      0.71      0.75       336
+           2       0.63      0.62      0.63       606
+           3       0.58      0.64      0.61       369
+           4       0.54      0.51      0.53       420
+           5       0.57      0.50      0.53       391
+           6       0.95      0.99      0.97       594
+           7       0.85      0.90      0.88       587
+           8       0.90      0.93      0.91       592
+           9       0.88      0.91      0.90       595
+          10       0.88      0.85      0.86       591
+          11       0.83      0.88      0.86       600
+          12       0.82      0.83      0.83       597
+
+    accuracy                           0.77      7194
+   macro avg       0.76      0.76      0.76      7194
+weighted avg       0.77      0.77      0.77      7194
+
+2025-03-18 23:13:26,728 - MLPClassifier_training - INFO - Confusion matrix saved to logs/MLPClassifier_20250318_231226_confusion_matrix3.png
+2025-03-18 23:13:26,729 - MLPClassifier_training - INFO - Starting fold 4/5
+2025-03-18 23:13:26,739 - MLPClassifier_training - INFO - Fold 4 - Training set: 23020, Validation set: 5755, Test set: 7194
+2025-03-18 23:13:47,717 - MLPClassifier_training - INFO - Fold 4 - Model training completed
+2025-03-18 23:13:47,755 - MLPClassifier_training - INFO - [Validation] Fold 4 - accuracy: 0.7765, precision: 0.7761, recall: 0.7765, f1: 0.7755, auc: 0.9760
+2025-03-18 23:13:47,793 - MLPClassifier_training - INFO - [Test] Fold 4 - accuracy: 0.7665, precision: 0.7660, recall: 0.7665, f1: 0.7652, auc: 0.9753
+2025-03-18 23:13:47,806 - MLPClassifier_training - INFO - Classification Report:
+              precision    recall  f1-score   support
+
+           0       0.62      0.65      0.64       915
+           1       0.81      0.71      0.75       336
+           2       0.62      0.55      0.58       606
+           3       0.57      0.58      0.58       369
+           4       0.53      0.59      0.56       420
+           5       0.57      0.49      0.53       392
+           6       0.96      0.98      0.97       593
+           7       0.85      0.91      0.88       588
+           8       0.89      0.94      0.91       592
+           9       0.89      0.91      0.90       595
+          10       0.88      0.81      0.84       591
+          11       0.80      0.86      0.83       600
+          12       0.86      0.82      0.84       597
+
+    accuracy                           0.77      7194
+   macro avg       0.76      0.75      0.75      7194
+weighted avg       0.77      0.77      0.77      7194
+
+2025-03-18 23:13:48,065 - MLPClassifier_training - INFO - Confusion matrix saved to logs/MLPClassifier_20250318_231226_confusion_matrix4.png
+2025-03-18 23:13:48,066 - MLPClassifier_training - INFO - Starting fold 5/5
+2025-03-18 23:13:48,075 - MLPClassifier_training - INFO - Fold 5 - Training set: 23020, Validation set: 5756, Test set: 7193
+2025-03-18 23:14:09,908 - MLPClassifier_training - INFO - Fold 5 - Model training completed
+2025-03-18 23:14:09,941 - MLPClassifier_training - INFO - [Validation] Fold 5 - accuracy: 0.7761, precision: 0.7774, recall: 0.7761, f1: 0.7757, auc: 0.9771
+2025-03-18 23:14:09,981 - MLPClassifier_training - INFO - [Test] Fold 5 - accuracy: 0.7783, precision: 0.7794, recall: 0.7783, f1: 0.7770, auc: 0.9764
+2025-03-18 23:14:09,993 - MLPClassifier_training - INFO - Classification Report:
+              precision    recall  f1-score   support
+
+           0       0.63      0.70      0.66       915
+           1       0.76      0.76      0.76       336
+           2       0.70      0.55      0.61       605
+           3       0.58      0.60      0.59       370
+           4       0.52      0.62      0.57       420
+           5       0.66      0.49      0.56       391
+           6       0.97      0.98      0.97       593
+           7       0.86      0.89      0.88       587
+           8       0.92      0.92      0.92       593
+           9       0.88      0.90      0.89       595
+          10       0.86      0.84      0.85       592
+          11       0.84      0.85      0.85       599
+          12       0.83      0.85      0.84       597
+
+    accuracy                           0.78      7193
+   macro avg       0.77      0.77      0.77      7193
+weighted avg       0.78      0.78      0.78      7193
+
+2025-03-18 23:14:10,241 - MLPClassifier_training - INFO - Confusion matrix saved to logs/MLPClassifier_20250318_231226_confusion_matrix5.png
+2025-03-18 23:14:10,242 - MLPClassifier_training - INFO - [Avg_Validation] Overall - accuracy: 0.7709, precision: 0.7702, recall: 0.7709, f1: 0.7697, auc: 0.9760
+2025-03-18 23:14:10,242 - MLPClassifier_training - INFO - [Avg_Test] Overall - accuracy: 0.7707, precision: 0.7699, recall: 0.7707, f1: 0.7694, auc: 0.9761
+2025-03-18 23:14:10,242 - MLPClassifier_training - INFO - Cross-validation completed

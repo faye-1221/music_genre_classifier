@@ -1,0 +1,9 @@
+2025-03-18 23:58:49,486 - MLPClassifier_gridsearch_training - INFO - Starting GridSearch for MLPClassifier
+2025-03-18 23:58:49,486 - MLPClassifier_gridsearch_training - INFO - Parameter grid: {'hidden_layer_sizes': [(50,), (100,), (50, 50), (100, 50)], 'alpha': [0.0001, 0.001, 0.01], 'max_iter': [200, 500, 1000]}
+2025-03-19 00:19:44,474 - MLPClassifier_gridsearch_training - INFO - Best parameters: {'alpha': 0.01, 'hidden_layer_sizes': (100, 50), 'max_iter': 200}
+2025-03-19 00:19:44,474 - MLPClassifier_gridsearch_training - INFO - Best score: 0.9745
+2025-03-19 00:19:44,489 - MLPClassifier_gridsearch_training - INFO - GridSearch results saved to logs/MLPClassifier_gridsearch_20250318_235849_results.csv
+2025-03-19 00:19:44,687 - MLPClassifier_gridsearch_training - INFO - Parameter importance plot saved to logs/MLPClassifier_gridsearch_20250318_235849_param_hidden_layer_sizes.png
+2025-03-19 00:19:44,749 - MLPClassifier_gridsearch_training - INFO - Parameter importance plot saved to logs/MLPClassifier_gridsearch_20250318_235849_param_alpha.png
+2025-03-19 00:19:44,812 - MLPClassifier_gridsearch_training - INFO - Parameter importance plot saved to logs/MLPClassifier_gridsearch_20250318_235849_param_max_iter.png
+2025-03-19 00:19:44,904 - MLPClassifier_gridsearch_training - INFO - All combinations plot saved to logs/MLPClassifier_gridsearch_20250318_235849_all_combinations.png

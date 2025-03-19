@@ -1,0 +1,140 @@
+2025-03-18 23:09:05,422 - XGBClassifier_training - INFO - Starting 5-fold cross validation for XGBClassifier
+2025-03-18 23:09:05,422 - XGBClassifier_training - INFO - Data shape - X: (35969, 10), y: 35969
+2025-03-18 23:09:05,425 - XGBClassifier_training - INFO - Starting fold 1/5
+2025-03-18 23:09:05,432 - XGBClassifier_training - INFO - Fold 1 - Training set: 23020, Validation set: 5755, Test set: 7194
+2025-03-18 23:09:08,383 - XGBClassifier_training - INFO - Fold 1 - Model training completed
+2025-03-18 23:09:08,476 - XGBClassifier_training - INFO - [Validation] Fold 1 - accuracy: 0.7847, precision: 0.7812, recall: 0.7847, f1: 0.7825, auc: 0.9794
+2025-03-18 23:09:08,598 - XGBClassifier_training - INFO - [Test] Fold 1 - accuracy: 0.7851, precision: 0.7818, recall: 0.7851, f1: 0.7830, auc: 0.9792
+2025-03-18 23:09:08,645 - XGBClassifier_training - INFO - Classification Report:
+              precision    recall  f1-score   support
+
+           0       0.63      0.66      0.65       916
+           1       0.81      0.78      0.80       336
+           2       0.64      0.63      0.63       605
+           3       0.61      0.64      0.62       370
+           4       0.56      0.49      0.52       420
+           5       0.58      0.49      0.53       391
+           6       0.97      0.99      0.98       593
+           7       0.90      0.94      0.92       587
+           8       0.93      0.93      0.93       592
+           9       0.87      0.89      0.88       595
+          10       0.85      0.85      0.85       591
+          11       0.83      0.87      0.85       600
+          12       0.87      0.87      0.87       598
+
+    accuracy                           0.79      7194
+   macro avg       0.77      0.77      0.77      7194
+weighted avg       0.78      0.79      0.78      7194
+
+2025-03-18 23:09:09,160 - XGBClassifier_training - INFO - Confusion matrix saved to logs/XGBClassifier_20250318_230905_confusion_matrix1.png
+2025-03-18 23:09:09,161 - XGBClassifier_training - INFO - Starting fold 2/5
+2025-03-18 23:09:09,169 - XGBClassifier_training - INFO - Fold 2 - Training set: 23020, Validation set: 5755, Test set: 7194
+2025-03-18 23:09:11,931 - XGBClassifier_training - INFO - Fold 2 - Model training completed
+2025-03-18 23:09:12,037 - XGBClassifier_training - INFO - [Validation] Fold 2 - accuracy: 0.7779, precision: 0.7749, recall: 0.7779, f1: 0.7755, auc: 0.9778
+2025-03-18 23:09:12,169 - XGBClassifier_training - INFO - [Test] Fold 2 - accuracy: 0.7861, precision: 0.7833, recall: 0.7861, f1: 0.7842, auc: 0.9791
+2025-03-18 23:09:12,241 - XGBClassifier_training - INFO - Classification Report:
+              precision    recall  f1-score   support
+
+           0       0.63      0.66      0.65       916
+           1       0.80      0.77      0.78       336
+           2       0.64      0.64      0.64       606
+           3       0.62      0.56      0.59       370
+           4       0.57      0.53      0.55       419
+           5       0.56      0.49      0.52       391
+           6       0.97      0.98      0.98       593
+           7       0.88      0.92      0.90       587
+           8       0.93      0.93      0.93       592
+           9       0.87      0.92      0.89       595
+          10       0.89      0.86      0.87       591
+          11       0.86      0.89      0.87       600
+          12       0.86      0.87      0.87       598
+
+    accuracy                           0.79      7194
+   macro avg       0.78      0.77      0.77      7194
+weighted avg       0.78      0.79      0.78      7194
+
+2025-03-18 23:09:12,536 - XGBClassifier_training - INFO - Confusion matrix saved to logs/XGBClassifier_20250318_230905_confusion_matrix2.png
+2025-03-18 23:09:12,537 - XGBClassifier_training - INFO - Starting fold 3/5
+2025-03-18 23:09:12,546 - XGBClassifier_training - INFO - Fold 3 - Training set: 23020, Validation set: 5755, Test set: 7194
+2025-03-18 23:09:16,549 - XGBClassifier_training - INFO - Fold 3 - Model training completed
+2025-03-18 23:09:16,691 - XGBClassifier_training - INFO - [Validation] Fold 3 - accuracy: 0.7831, precision: 0.7814, recall: 0.7831, f1: 0.7818, auc: 0.9790
+2025-03-18 23:09:16,846 - XGBClassifier_training - INFO - [Test] Fold 3 - accuracy: 0.7923, precision: 0.7885, recall: 0.7923, f1: 0.7899, auc: 0.9799
+2025-03-18 23:09:16,899 - XGBClassifier_training - INFO - Classification Report:
+              precision    recall  f1-score   support
+
+           0       0.64      0.68      0.66       916
+           1       0.82      0.75      0.78       336
+           2       0.65      0.64      0.64       606
+           3       0.61      0.60      0.61       369
+           4       0.55      0.49      0.52       420
+           5       0.57      0.48      0.52       391
+           6       0.97      0.99      0.98       594
+           7       0.90      0.93      0.91       587
+           8       0.93      0.93      0.93       592
+           9       0.91      0.92      0.92       595
+          10       0.87      0.91      0.89       591
+          11       0.86      0.89      0.87       600
+          12       0.85      0.87      0.86       597
+
+    accuracy                           0.79      7194
+   macro avg       0.78      0.78      0.78      7194
+weighted avg       0.79      0.79      0.79      7194
+
+2025-03-18 23:09:17,202 - XGBClassifier_training - INFO - Confusion matrix saved to logs/XGBClassifier_20250318_230905_confusion_matrix3.png
+2025-03-18 23:09:17,203 - XGBClassifier_training - INFO - Starting fold 4/5
+2025-03-18 23:09:17,212 - XGBClassifier_training - INFO - Fold 4 - Training set: 23020, Validation set: 5755, Test set: 7194
+2025-03-18 23:09:22,541 - XGBClassifier_training - INFO - Fold 4 - Model training completed
+2025-03-18 23:09:22,745 - XGBClassifier_training - INFO - [Validation] Fold 4 - accuracy: 0.7861, precision: 0.7837, recall: 0.7861, f1: 0.7845, auc: 0.9783
+2025-03-18 23:09:22,947 - XGBClassifier_training - INFO - [Test] Fold 4 - accuracy: 0.7838, precision: 0.7829, recall: 0.7838, f1: 0.7826, auc: 0.9786
+2025-03-18 23:09:23,049 - XGBClassifier_training - INFO - Classification Report:
+              precision    recall  f1-score   support
+
+           0       0.62      0.67      0.64       915
+           1       0.85      0.72      0.78       336
+           2       0.63      0.59      0.61       606
+           3       0.58      0.56      0.57       369
+           4       0.55      0.58      0.57       420
+           5       0.56      0.48      0.52       392
+           6       0.97      0.99      0.98       593
+           7       0.88      0.94      0.91       588
+           8       0.92      0.92      0.92       592
+           9       0.93      0.92      0.92       595
+          10       0.88      0.89      0.89       591
+          11       0.81      0.87      0.84       600
+          12       0.88      0.86      0.87       597
+
+    accuracy                           0.78      7194
+   macro avg       0.77      0.77      0.77      7194
+weighted avg       0.78      0.78      0.78      7194
+
+2025-03-18 23:09:23,431 - XGBClassifier_training - INFO - Confusion matrix saved to logs/XGBClassifier_20250318_230905_confusion_matrix4.png
+2025-03-18 23:09:23,433 - XGBClassifier_training - INFO - Starting fold 5/5
+2025-03-18 23:09:23,443 - XGBClassifier_training - INFO - Fold 5 - Training set: 23020, Validation set: 5756, Test set: 7193
+2025-03-18 23:09:27,981 - XGBClassifier_training - INFO - Fold 5 - Model training completed
+2025-03-18 23:09:28,123 - XGBClassifier_training - INFO - [Validation] Fold 5 - accuracy: 0.7901, precision: 0.7888, recall: 0.7901, f1: 0.7891, auc: 0.9793
+2025-03-18 23:09:28,311 - XGBClassifier_training - INFO - [Test] Fold 5 - accuracy: 0.7872, precision: 0.7844, recall: 0.7872, f1: 0.7850, auc: 0.9789
+2025-03-18 23:09:28,396 - XGBClassifier_training - INFO - Classification Report:
+              precision    recall  f1-score   support
+
+           0       0.63      0.68      0.65       915
+           1       0.80      0.79      0.80       336
+           2       0.65      0.59      0.61       605
+           3       0.62      0.60      0.61       370
+           4       0.54      0.53      0.53       420
+           5       0.59      0.49      0.54       391
+           6       0.98      0.99      0.99       593
+           7       0.87      0.94      0.90       587
+           8       0.93      0.93      0.93       593
+           9       0.89      0.91      0.90       595
+          10       0.88      0.85      0.86       592
+          11       0.84      0.90      0.87       599
+          12       0.86      0.86      0.86       597
+
+    accuracy                           0.79      7193
+   macro avg       0.78      0.77      0.77      7193
+weighted avg       0.78      0.79      0.79      7193
+
+2025-03-18 23:09:28,808 - XGBClassifier_training - INFO - Confusion matrix saved to logs/XGBClassifier_20250318_230905_confusion_matrix5.png
+2025-03-18 23:09:28,809 - XGBClassifier_training - INFO - [Avg_Validation] Overall - accuracy: 0.7844, precision: 0.7820, recall: 0.7844, f1: 0.7827, auc: 0.9788
+2025-03-18 23:09:28,809 - XGBClassifier_training - INFO - [Avg_Test] Overall - accuracy: 0.7869, precision: 0.7842, recall: 0.7869, f1: 0.7849, auc: 0.9791
+2025-03-18 23:09:28,810 - XGBClassifier_training - INFO - Cross-validation completed

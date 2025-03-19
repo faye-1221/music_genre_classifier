@@ -1,0 +1,140 @@
+2025-03-18 21:19:57,309 - RandomForestClassifier_training - INFO - Starting 5-fold cross validation for RandomForestClassifier
+2025-03-18 21:19:57,309 - RandomForestClassifier_training - INFO - Data shape - X: (35969, 10), y: 35969
+2025-03-18 21:19:57,313 - RandomForestClassifier_training - INFO - Starting fold 1/5
+2025-03-18 21:19:57,321 - RandomForestClassifier_training - INFO - Fold 1 - Training set: 23020, Validation set: 5755, Test set: 7194
+2025-03-18 21:20:03,057 - RandomForestClassifier_training - INFO - Fold 1 - Model training completed
+2025-03-18 21:20:03,305 - RandomForestClassifier_training - INFO - [Validation] Fold 1 - accuracy: 0.7712, precision: 0.7670, recall: 0.7712, f1: 0.7684, auc: 0.9716
+2025-03-18 21:20:03,522 - RandomForestClassifier_training - INFO - [Test] Fold 1 - accuracy: 0.7784, precision: 0.7752, recall: 0.7784, f1: 0.7762, auc: 0.9732
+2025-03-18 21:20:03,636 - RandomForestClassifier_training - INFO - Classification Report:
+              precision    recall  f1-score   support
+
+           0       0.63      0.65      0.64       916
+           1       0.79      0.78      0.78       336
+           2       0.62      0.62      0.62       605
+           3       0.57      0.62      0.60       370
+           4       0.55      0.49      0.52       420
+           5       0.56      0.45      0.50       391
+           6       0.97      0.99      0.98       593
+           7       0.89      0.94      0.91       587
+           8       0.93      0.92      0.92       592
+           9       0.87      0.90      0.89       595
+          10       0.84      0.86      0.85       591
+          11       0.84      0.85      0.85       600
+          12       0.89      0.87      0.88       598
+
+    accuracy                           0.78      7194
+   macro avg       0.77      0.76      0.76      7194
+weighted avg       0.78      0.78      0.78      7194
+
+2025-03-18 21:20:04,160 - RandomForestClassifier_training - INFO - Confusion matrix saved to logs/RandomForestClassifier_20250318_211957_confusion_matrix1.png
+2025-03-18 21:20:04,161 - RandomForestClassifier_training - INFO - Starting fold 2/5
+2025-03-18 21:20:04,171 - RandomForestClassifier_training - INFO - Fold 2 - Training set: 23020, Validation set: 5755, Test set: 7194
+2025-03-18 21:20:10,361 - RandomForestClassifier_training - INFO - Fold 2 - Model training completed
+2025-03-18 21:20:10,565 - RandomForestClassifier_training - INFO - [Validation] Fold 2 - accuracy: 0.7642, precision: 0.7620, recall: 0.7642, f1: 0.7621, auc: 0.9703
+2025-03-18 21:20:10,787 - RandomForestClassifier_training - INFO - [Test] Fold 2 - accuracy: 0.7740, precision: 0.7712, recall: 0.7740, f1: 0.7719, auc: 0.9714
+2025-03-18 21:20:10,917 - RandomForestClassifier_training - INFO - Classification Report:
+              precision    recall  f1-score   support
+
+           0       0.60      0.66      0.63       916
+           1       0.80      0.76      0.78       336
+           2       0.61      0.63      0.62       606
+           3       0.60      0.54      0.57       370
+           4       0.55      0.48      0.51       419
+           5       0.53      0.45      0.49       391
+           6       0.97      0.97      0.97       593
+           7       0.88      0.91      0.90       587
+           8       0.92      0.92      0.92       592
+           9       0.86      0.92      0.89       595
+          10       0.88      0.87      0.87       591
+          11       0.85      0.87      0.86       600
+          12       0.87      0.84      0.86       598
+
+    accuracy                           0.77      7194
+   macro avg       0.76      0.76      0.76      7194
+weighted avg       0.77      0.77      0.77      7194
+
+2025-03-18 21:20:11,235 - RandomForestClassifier_training - INFO - Confusion matrix saved to logs/RandomForestClassifier_20250318_211957_confusion_matrix2.png
+2025-03-18 21:20:11,236 - RandomForestClassifier_training - INFO - Starting fold 3/5
+2025-03-18 21:20:11,245 - RandomForestClassifier_training - INFO - Fold 3 - Training set: 23020, Validation set: 5755, Test set: 7194
+2025-03-18 21:20:17,801 - RandomForestClassifier_training - INFO - Fold 3 - Model training completed
+2025-03-18 21:20:18,047 - RandomForestClassifier_training - INFO - [Validation] Fold 3 - accuracy: 0.7771, precision: 0.7750, recall: 0.7771, f1: 0.7757, auc: 0.9730
+2025-03-18 21:20:18,265 - RandomForestClassifier_training - INFO - [Test] Fold 3 - accuracy: 0.7795, precision: 0.7762, recall: 0.7795, f1: 0.7774, auc: 0.9720
+2025-03-18 21:20:18,380 - RandomForestClassifier_training - INFO - Classification Report:
+              precision    recall  f1-score   support
+
+           0       0.61      0.65      0.63       916
+           1       0.80      0.74      0.76       336
+           2       0.62      0.61      0.62       606
+           3       0.60      0.59      0.59       369
+           4       0.53      0.48      0.50       420
+           5       0.53      0.45      0.48       391
+           6       0.97      0.99      0.98       594
+           7       0.89      0.92      0.91       587
+           8       0.92      0.94      0.93       592
+           9       0.91      0.92      0.91       595
+          10       0.87      0.90      0.88       591
+          11       0.86      0.88      0.87       600
+          12       0.86      0.87      0.87       597
+
+    accuracy                           0.78      7194
+   macro avg       0.77      0.76      0.76      7194
+weighted avg       0.78      0.78      0.78      7194
+
+2025-03-18 21:20:18,636 - RandomForestClassifier_training - INFO - Confusion matrix saved to logs/RandomForestClassifier_20250318_211957_confusion_matrix3.png
+2025-03-18 21:20:18,636 - RandomForestClassifier_training - INFO - Starting fold 4/5
+2025-03-18 21:20:18,644 - RandomForestClassifier_training - INFO - Fold 4 - Training set: 23020, Validation set: 5755, Test set: 7194
+2025-03-18 21:20:24,811 - RandomForestClassifier_training - INFO - Fold 4 - Model training completed
+2025-03-18 21:20:25,036 - RandomForestClassifier_training - INFO - [Validation] Fold 4 - accuracy: 0.7741, precision: 0.7710, recall: 0.7741, f1: 0.7720, auc: 0.9718
+2025-03-18 21:20:25,286 - RandomForestClassifier_training - INFO - [Test] Fold 4 - accuracy: 0.7743, precision: 0.7727, recall: 0.7743, f1: 0.7729, auc: 0.9723
+2025-03-18 21:20:25,404 - RandomForestClassifier_training - INFO - Classification Report:
+              precision    recall  f1-score   support
+
+           0       0.60      0.64      0.62       915
+           1       0.81      0.70      0.75       336
+           2       0.60      0.59      0.59       606
+           3       0.57      0.55      0.56       369
+           4       0.56      0.58      0.57       420
+           5       0.51      0.43      0.47       392
+           6       0.97      0.99      0.98       593
+           7       0.89      0.93      0.91       588
+           8       0.92      0.92      0.92       592
+           9       0.92      0.91      0.92       595
+          10       0.88      0.89      0.88       591
+          11       0.82      0.86      0.84       600
+          12       0.87      0.85      0.86       597
+
+    accuracy                           0.77      7194
+   macro avg       0.76      0.76      0.76      7194
+weighted avg       0.77      0.77      0.77      7194
+
+2025-03-18 21:20:25,788 - RandomForestClassifier_training - INFO - Confusion matrix saved to logs/RandomForestClassifier_20250318_211957_confusion_matrix4.png
+2025-03-18 21:20:25,789 - RandomForestClassifier_training - INFO - Starting fold 5/5
+2025-03-18 21:20:25,802 - RandomForestClassifier_training - INFO - Fold 5 - Training set: 23020, Validation set: 5756, Test set: 7193
+2025-03-18 21:20:32,613 - RandomForestClassifier_training - INFO - Fold 5 - Model training completed
+2025-03-18 21:20:32,886 - RandomForestClassifier_training - INFO - [Validation] Fold 5 - accuracy: 0.7740, precision: 0.7728, recall: 0.7740, f1: 0.7730, auc: 0.9728
+2025-03-18 21:20:33,170 - RandomForestClassifier_training - INFO - [Test] Fold 5 - accuracy: 0.7778, precision: 0.7751, recall: 0.7778, f1: 0.7762, auc: 0.9716
+2025-03-18 21:20:33,298 - RandomForestClassifier_training - INFO - Classification Report:
+              precision    recall  f1-score   support
+
+           0       0.63      0.66      0.64       915
+           1       0.80      0.78      0.79       336
+           2       0.62      0.61      0.62       605
+           3       0.58      0.56      0.57       370
+           4       0.54      0.50      0.52       420
+           5       0.54      0.48      0.51       391
+           6       0.98      0.99      0.98       593
+           7       0.88      0.91      0.90       587
+           8       0.92      0.93      0.93       593
+           9       0.89      0.90      0.89       595
+          10       0.87      0.84      0.86       592
+          11       0.85      0.89      0.87       599
+          12       0.86      0.86      0.86       597
+
+    accuracy                           0.78      7193
+   macro avg       0.77      0.76      0.76      7193
+weighted avg       0.78      0.78      0.78      7193
+
+2025-03-18 21:20:33,610 - RandomForestClassifier_training - INFO - Confusion matrix saved to logs/RandomForestClassifier_20250318_211957_confusion_matrix5.png
+2025-03-18 21:20:33,610 - RandomForestClassifier_training - INFO - [Avg_Validation] Overall - accuracy: 0.7721, precision: 0.7696, recall: 0.7721, f1: 0.7703, auc: 0.9719
+2025-03-18 21:20:33,610 - RandomForestClassifier_training - INFO - [Avg_Test] Overall - accuracy: 0.7768, precision: 0.7741, recall: 0.7768, f1: 0.7749, auc: 0.9721
+2025-03-18 21:20:33,611 - RandomForestClassifier_training - INFO - Cross-validation completed

@@ -1,0 +1,12 @@
+2025-03-18 22:13:27,843 - XGBClassifier_gridsearch_training - INFO - Starting GridSearch for XGBClassifier
+2025-03-18 22:13:27,844 - XGBClassifier_gridsearch_training - INFO - Parameter grid: {'n_estimators': [50, 100, 200], 'max_depth': [3, 5, 7], 'learning_rate': [0.01, 0.1, 0.2], 'subsample': [0.8, 1.0], 'colsample_bytree': [0.8, 1.0], 'min_child_weight': [1, 3, 5]}
+2025-03-18 22:46:01,662 - XGBClassifier_gridsearch_training - INFO - Best parameters: {'colsample_bytree': 0.8, 'learning_rate': 0.1, 'max_depth': 5, 'min_child_weight': 1, 'n_estimators': 200, 'subsample': 0.8}
+2025-03-18 22:46:01,664 - XGBClassifier_gridsearch_training - INFO - Best score: 0.7759
+2025-03-18 22:46:01,681 - XGBClassifier_gridsearch_training - INFO - GridSearch results saved to logs/XGBClassifier_gridsearch_20250318_221327_results.csv
+2025-03-18 22:46:01,976 - XGBClassifier_gridsearch_training - INFO - Parameter importance plot saved to logs/XGBClassifier_gridsearch_20250318_221327_param_n_estimators.png
+2025-03-18 22:46:02,048 - XGBClassifier_gridsearch_training - INFO - Parameter importance plot saved to logs/XGBClassifier_gridsearch_20250318_221327_param_max_depth.png
+2025-03-18 22:46:02,118 - XGBClassifier_gridsearch_training - INFO - Parameter importance plot saved to logs/XGBClassifier_gridsearch_20250318_221327_param_learning_rate.png
+2025-03-18 22:46:02,184 - XGBClassifier_gridsearch_training - INFO - Parameter importance plot saved to logs/XGBClassifier_gridsearch_20250318_221327_param_subsample.png
+2025-03-18 22:46:02,250 - XGBClassifier_gridsearch_training - INFO - Parameter importance plot saved to logs/XGBClassifier_gridsearch_20250318_221327_param_colsample_bytree.png
+2025-03-18 22:46:02,317 - XGBClassifier_gridsearch_training - INFO - Parameter importance plot saved to logs/XGBClassifier_gridsearch_20250318_221327_param_min_child_weight.png
+2025-03-18 22:46:02,406 - XGBClassifier_gridsearch_training - INFO - All combinations plot saved to logs/XGBClassifier_gridsearch_20250318_221327_all_combinations.png
